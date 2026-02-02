@@ -7,6 +7,7 @@ import { appleTheme } from "./styles/theme";
 import AppRoutes from "./routes";
 import { GlobalStyles } from "./styles/GlobalStyles";
 import { Navbar } from "./components/Navbar";
+import { Footer } from "./components/Footer";
 
 // Importações de Componentes Globais (quando você os criar)
 // import Navbar from './components/Navbar';
@@ -27,6 +28,8 @@ function App() {
           {/* 4. AppRoutes decide QUAL página renderizar no meio do site */}
           <AppRoutes />
         </main>
+
+        <Footer />
 
         {/* 5. O Footer também é fixo no final de todas as páginas */}
         {/* <Footer /> */}

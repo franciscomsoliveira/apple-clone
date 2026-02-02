@@ -1,8 +1,10 @@
 import { Routes, Route } from "react-router-dom";
 
+import { HomePage } from "../pages/Home";
+
 const AppRoutes = () => (
   <Routes>
-    <Route path="/" element={<div>Home</div>} />
+    <Route path="/" element={<HomePage />} />
     <Route path="/store" element={<div>Loja</div>} />
     <Route path="/mac" element={<div>Mac</div>} />
     <Route path="/ipad" element={<div>iPad</div>} />
